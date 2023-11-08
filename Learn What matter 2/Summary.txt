@@ -6,3 +6,12 @@ In Other words we can say that nodejs is the cpp code which is taken from the v8
 
 Q- What is Expressjs?
 Ans - Express.js is a small framework that works on top of Node.js web server functionality to simplify its APIs and add helpful new features. It makes it easier to organize your application’s functionality with middleware and routing. It adds helpful utilities to Node.js HTTP objects and facilitates the rendering of dynamic HTTP objects.
+
+
+Q- What is Modules?
+Ans- It's a set of function which you want to use it  in your projects.
+
+Type of Modules
+1. Built in Modules
+2. third party Modules
+3. Local Modules
