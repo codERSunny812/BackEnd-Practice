@@ -61,3 +61,18 @@ Ans- A template engine enables you to use static template files in your applicat
 During render make sure that you put only that file which is present in the views folder and dont put the file extension in it.
 
 
+
+static files setup
+
+1. create a public folder  in the root.
+
+2. Create 3 more folder in the public folder
+a. images
+b. stylesheet
+c. javascript
+
+3. configure the express static 
+
+4. understand the path 
+
+

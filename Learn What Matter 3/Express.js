@@ -3,6 +3,9 @@ const server = app();
 
 server.set("view engine","ejs");
 
+// static file configuration
+server.use(app.static('./Public'));
+
 server.use((req,res,next)=>{
 console.log("inside middle ware");
 next();
@@ -33,8 +36,11 @@ server.get('/profile/:personname',(req,res)=>{
 
 // ejs introduction express
 server.get("/contact",(req,res)=>{
-res.render('index')
+res.render('index',{submit:"click me"})
 })
+
+// we can pass data in side the render and use it in our ejs file
+// by passing this along with index we can replace all the submit text with the click me  
 
 
 server.get('/error',(req,res)=>{
