@@ -1,0 +1,63 @@
+Q- Node vs Express?
+We can also created server with the help of nodejs using http modules which is a built in module in the node but still we use the express because it's easy to use and implement.
+
+but at the end of the day the express uses node http mundlers for creation of server.
+
+
+Q- What is express?
+Ans- Express provide a set of functionalties and tools  for creating web application. its a package which is available on the npm.
+Some key feature are given below:
+1.Routing
+2.MiddleWare
+3. Static file server
+
+
+Q- Why express js?
+Ans- Http is not easy to use so that why we use express.
+
+Q- What is Routing?
+Ans - Routing in web development is the process of directing incoming requests to specific code or resources based on the URL or other request information. It helps determine how a web application should respond to different URLs, HTTP methods, and parameters, ensuring that the right functionality is executed for each request.
+
+
+Q- What is MiddleWare?
+Ans- Middleware functions are functions that have access to the request object ( req ), the response object ( res ), and the next function in the application's request-response cycle. The next function is a function in the Express router which, when invoked, executes the middleware succeeding the current middleware.
+
+
+--> How the express work ?
+When the server is start we will make a request to the localhost:PORTNUMBER and our server will respond back a answer for our request.
+
+req -> contain the data of the person who request to any server.
+res -> has the data of the response to the request of the user.
+
+
+when ever you send a request  to a server and your request look like this
+
+request/route:variable 
+
+then you can acess the variable and show to the user by doing this:: 
+
+req.param.varibale
+
+
+Q- What is templates engines?
+Ans- A template engine enables you to use static template files in your application. At runtime, the template engine replaces variables in a template file with actual values, and transforms the template into an HTML file sent to the client. This approach makes it easier to design an HTML page. 
+
+
+--> How to setup ejs in your code:
+
+1. Install ejs
+:::: npm i ejs
+
+2.configure ejs
+:::: app.set("view engine","ejs")
+
+3.make a views folder
+
+4. create ejs files in it 
+
+5. replace send with render
+
+
+During render make sure that you put only that file which is present in the views folder and dont put the file extension in it.
+
+
