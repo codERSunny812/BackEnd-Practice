@@ -1,0 +1,8 @@
+Q- what is nodejs?
+Ans- "Node.js is an open-source and cross-platform JavaScript runtime environment." 
+
+In Other words we can say that nodejs is the cpp code which is taken from the v8 engine and it's encapsulated with js code, which allow us to write js code.
+
+
+Q- What is Expressjs?
+Ans - Express.js is a small framework that works on top of Node.js web server functionality to simplify its APIs and add helpful new features. It makes it easier to organize your application’s functionality with middleware and routing. It adds helpful utilities to Node.js HTTP objects and facilitates the rendering of dynamic HTTP objects.
