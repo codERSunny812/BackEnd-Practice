@@ -1,0 +1,14 @@
+express generator
+it will make the  folder structure for us and will also write a basic boiler plate for us.
+and we dont need to create extra folder as we are creating in our previous folder expresss generator will create by default for us.
+
+
+steps to use express generator
+
+1. yarn add express-generator -g
+
+now to create a app anywhere
+
+1.express appname --view=ejs
+2. cd app name
+3. yarn (install the required dependency)
