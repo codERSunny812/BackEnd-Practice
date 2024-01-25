@@ -12,3 +12,8 @@ now to create a app anywhere
 1.express appname --view=ejs
 2. cd app name
 3. yarn (install the required dependency)
+
+Topic discuss in this:
+1. Express generator
+2. MongoDb essential
+3. Session and cookies

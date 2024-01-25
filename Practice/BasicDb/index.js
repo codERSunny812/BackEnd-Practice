@@ -31,6 +31,7 @@ const adder = async () => {
 //   another way of doing this is :
 
 
+
 // creating into the database
 const dataAdded = userModal.create({
     name:"sushil pandey",
@@ -39,6 +40,7 @@ const dataAdded = userModal.create({
 });
 
 // finding into the database
+
 
 };
 

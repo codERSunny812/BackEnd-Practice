@@ -1,0 +1,4 @@
+topic to be covered in this
+1. flash messages
+2. intermediate mongoDb
+3. Authentication and authorization
